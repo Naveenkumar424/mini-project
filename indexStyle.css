@@ -52,3 +52,6 @@ body {
   
   /* Add additional styling as needed */
   
+  #getIn {
+    margin-top: -300px; /* Adjust this value to move the div higher */
+  }
