@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <style>
+        header{
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        body{
+            margin:0%;
+            font-family:'Times New Roman', Times, serif;
+            font-size: larger;
+        }
+
+        button {
+            background-color: #0074d9;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 10%;
+        }
+
+        button:hover {
+            background-color: #005cbf;
+        }
+    </style>
+</head>
+<body>
+    <header>Sign-in</header>
+    <div>
+    <pre>
+    Enter Name:    <input placeholder="User Name" id="name">
+
+
+    Enter Password:<input placeholder="Password" id="password">
+
+    <button id="sis" onclick="submitIn()">Submit</button>  <button id="sic" onclick="clearIn()">Clear</button>
+    </pre>
+    </div>
+    <script src="./siu.js"></script>
+</body>
+</html>
